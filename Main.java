@@ -19,6 +19,7 @@ public class Main {
 	   nations.add(new Nation("Idiots", (gameLifePoints / 3)));
 	   nations.add(new Nation("Minions", (gameLifePoints) / 3));
 	   nations.add(new Nation("RobertNation", (gameLifePoints) / 3));
+	   nations.add(new Nation("CoryNation", (gameLifePoints) / 3));
 	   // could add and delete nations. return number of nations + 1 from add and number of nations -1 from remove.
 	   for(int i = 0; i < 40; i++)
        {
