@@ -16,6 +16,8 @@ public class Nation
     private ArrayList<People> livingPopulation = new ArrayList<>();
 
 
+    //Creates the Nation and adds the tribes, in this case 3 tribes and divides the set nation life points by 3 for
+    //all 3 tribes evenly
     public Nation(String name, int lifePoints)
     {
         nationCount++;
@@ -29,7 +31,7 @@ public class Nation
         livingPopulation.addAll(population);
     }
 
-
+    //If nations life points are above 0, that means it can still play and is alive, if 0 then nation is dead
     public Boolean isNationAlive()
     {
         return (nationLifePoints > 0);

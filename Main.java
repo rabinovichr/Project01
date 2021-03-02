@@ -13,6 +13,7 @@ public class Main {
 
     public static void main(String[] args)
     {
+        //Every nation is added and the lifepoints are modified
        int gameLifePoints = 2000;
        ArrayList<Nation> nations = new ArrayList<>() ; // nations create tribes create people
        PlayGame game = new PlayGame();

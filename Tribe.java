@@ -14,6 +14,7 @@ public class Tribe
     private ArrayList<People> members = new ArrayList<>();
     private ArrayList<People> livingMembers = new ArrayList<>();
 
+    //Creates the tribe and fills each tribe with one of each of the character types
     public Tribe(String nation, String tribe, int lifePoints)
     {
         nationName = nation;
@@ -30,6 +31,7 @@ public class Tribe
             livingMembers.addAll(members);
     }
 
+    //Checks if the characters have health points greater than 0 which means they are alive and returns them
     public ArrayList<People> getLivingTribeMembers()
     {
         livingMembers.clear();

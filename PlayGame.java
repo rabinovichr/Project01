@@ -44,7 +44,9 @@ public class PlayGame
         //System.out.print(allLivingNations);
     }
 
-
+    //The game is random, a random number generator chooses nation, tribe, and character to go against each other and
+    //the damage is also random with a cap at 20. As of this point none of the characters make a difference and there
+    //is no strategy as its random and they all do the same thing.
     public void encounter(People p1, People p2)
     {
         // need to fix this to take strategies into account.
